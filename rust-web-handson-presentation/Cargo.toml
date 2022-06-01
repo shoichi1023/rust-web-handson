@@ -9,8 +9,12 @@ version = "0.1.0"
 anyhow = "1.0.57"
 axum = {version = "0.5.5", features = ["multipart"]}
 dotenv = "0.15.0"
+mockall = "0.11.1"
+mockall_double = "0.3.0"
 rust-web-handson-app = {path = "../rust-web-handson-app"}
+rust-web-handson-domain = {path = "../rust-web-handson-domain"}
 rust-web-handson-infra = {path = "../rust-web-handson-infra"}
+serde = {version = "1.0.137", features = ["derive"]}
 thiserror = "1.0.31"
 tokio = {version = "1.18.2", features = ["full"]}
 tracing = "0.1.34"

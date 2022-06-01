@@ -11,7 +11,7 @@ rdsのmigrateにsql-cliを利用しています。
 cargoによりインストールしてください。
 
 ```bash
-cargo install sql-cli
+cargo install sqlx-cli
 ```
 
 ### Middleware
@@ -39,7 +39,7 @@ sqlx migrate run --source ./migrations/schema --ignore-missing
 必要であればテストデータのmigrateも行ってください。
 
 ```bash
-sqlx migrate run --source ./migations/test-data --ignore-missing
+sqlx migrate run --source ./migrations/test-data --ignore-missing
 ```
 
 ### Build & Run

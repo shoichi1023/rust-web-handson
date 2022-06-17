@@ -19,3 +19,10 @@ services:
       - ./data/my.cnf:/etc/mysql/conf.d/my.cnf
     ports:
       - 3306:3306
+  mock:
+    image: rodolpheche/wiremock:latest-alpine
+    volumes:
+      - "./wiremock:/home/wiremock"
+    ports:
+      - 18080:8080
+    restart: on-failure

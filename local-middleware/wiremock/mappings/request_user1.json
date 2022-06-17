@@ -1,0 +1,17 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/user/1"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "status": "Success",
+            "name": "xxxx",
+            "email": "xxx@example.com"
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

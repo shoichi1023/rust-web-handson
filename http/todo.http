@@ -1,0 +1,20 @@
+###
+GET {{baseUrl}}/todo
+
+### 
+POST http://localhost:8080/todo
+content-type: application/json
+
+{
+    "title": "hogehgoe",
+    "description": "fugafuga"
+}
+
+### 
+POST http://localhost:8080/todo/try
+content-type: application/json
+
+{
+    "title": "sample title",
+    "description": "sample description"
+}
